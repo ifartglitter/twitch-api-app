@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
-@import url(https://fonts.googleapis.com/css?family=Ubuntu);
 * {
   box-sizing: border-box;
 }
@@ -14,14 +13,12 @@ body {
   background-color: #eeeef3;
   color: #212121;
 }
-h1, h2, {
-  text-align: center;
-  padding: 25px;
-}
+
 h1, h2 {
   display: block;
-  color: #212121;
   border-bottom: 1px solid #B6B6B6;
+  text-align: center;
+  padding: 25px;
 }
 
 h3 {
@@ -35,16 +32,11 @@ h4 {
   font-weight:lighter;
 }
 
-p {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 128px;
-}
 a {
   color: inherit;
   text-decoration: none;
 }
+
 img {
   display: block;
   margin: 0 auto;
@@ -83,10 +75,6 @@ img {
 }
 .offline:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-}
-
-.inPreview {
-  margin
 }
 
 #twitch-streamers {
